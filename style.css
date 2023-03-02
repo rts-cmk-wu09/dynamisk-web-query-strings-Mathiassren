@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    padding: 45px 0;
+}
+h1, section, div, figure, span, a, p, img{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+    margin-bottom: 25px;
+}
+a, i{
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+.fa-solid{
+    color: rgb(255, 100, 100);
+}
+section > div{
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+section div figure{
+    display: flex;
+    flex-direction: column;
+}
+section div figure div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 17px;
+    margin: 0;
+    height: 72px;
+    background-color: #CEF9FF;
+}
+img{
+    height: 288px;
+    width: 288px;
+    background-color: lightgray;
+}
+i{
+    cursor: pointer;
+}
